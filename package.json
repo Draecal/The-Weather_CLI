@@ -1,0 +1,27 @@
+{
+  "name": "the-weather-cli",
+  "version": "1.0.0",
+  "description": "A console weather tool.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "the-weather-cli"
+  },
+  "keywords": [
+    "weather",
+    "console",
+    "nodejs",
+    "api"
+  ],
+  "author": "Draecal",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "inquirer": "^8.2.2"
+  }
+}
